@@ -13,5 +13,5 @@ php构建Rpc自定义服务(rpclog)
     └── Logs.php                  //自定义rpclog类
 
 
-# nohub php RpcServer.php &     //开启服务端
-# php RpcClient.php             //测试
+> nohub php RpcServer.php &     //开启服务端
+> php RpcClient.php             //测试
