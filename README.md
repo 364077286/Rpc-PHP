@@ -13,7 +13,7 @@ php构建Rpc自定义服务(rpclog)<br/>
 &nbsp;&nbsp;└── Logs.php                  //自定义rpclog类<br/>
 <br/>
 <br/>
-> nohub php RpcServer.php &     //cli 开启服务端<br/>
+> nohup php RpcServer.php &     //cli 开启服务端<br/>
 > php RpcClient.php             //cli 测试<br/>
 
 注意：防火墙/端口 （阿里云安全策略规则入方向）要配置才可以哦！
