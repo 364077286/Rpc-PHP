@@ -36,7 +36,7 @@ class RpcClient {
     }
 }
  
-$cli = new RpcClient('106.14.0.36:19001/logs');
+$cli = new RpcClient('*.*.*.*:19001/logs');  //服务器的公网ip
 echo $cli->addLog('123456');
 
 
