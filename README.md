@@ -10,7 +10,7 @@ php构建Rpc自定义服务(rpclog)<br/>
 ├── RpcClient.php                 //客户端<br/>
 ├── RpcServer.php                 //rpc服务端<br/>
 └── service                       //自定义服务文件夹<br/>
-│   └── Logs.php                  //自定义rpclog类<br/>
+   └── Logs.php                  //自定义rpclog类<br/>
 <br/>
 <br/>
 > nohub php RpcServer.php &     //开启服务端<br/>
